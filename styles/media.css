@@ -77,7 +77,7 @@
 }
 
 /* for tablet device */
-@media only screen and (min-height:688px) and (max-height:1223px) {
+@media only screen and (min-width:688px) and (max-width:1223px) {
 
     /* header */
     .navbar {

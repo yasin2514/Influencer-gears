@@ -95,7 +95,7 @@ body {
 .banner-img {
     background-image: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-origin: border-box;
+    background-size: contain;
     padding: 20px 0px;
     background-position: right;
     display: flex;
