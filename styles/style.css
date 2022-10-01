@@ -68,7 +68,6 @@ body {
     color: #3A3A3A;
     font-weight: 600;
     line-height: 24px;
-
 }
 
 .btn {
@@ -130,6 +129,8 @@ body {
 .sponser {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 40px 0px;
     border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
@@ -162,7 +163,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 12px;
-    box-shadow: 1px 1px 10px rgb(183, 181, 181);
+    box-shadow: 1px 1px 15px rgb(183, 181, 181);
     border-radius: 5px;
     margin: 20px 0px;
 
@@ -231,10 +232,14 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+.see-more>a:hover{
+    color: #c20e50;
+}
 /* products section end*/
 /* featured section start */
 .fetured-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
@@ -302,5 +307,6 @@ body {
     padding: 2px 5px;
     border-radius: 100px;
     font-size: 20px;
+    margin: 0px 5px;
 
 }
