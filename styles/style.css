@@ -168,9 +168,10 @@ body {
 
 }
 .product-img{
+    display: flex;
     overflow: hidden;
-
-
+    position: relative;
+    border-radius: 5px;
 }
 .product-img>img {
     width: 100%;
